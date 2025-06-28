@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Disallow admin areas
+Disallow: /admin
+Disallow: /profile
+Disallow: /shop
+
+# Allow important pages
+Allow: /
+Allow: /news
+Allow: /tournaments
+Allow: /leaderboard
+Allow: /academy
+Allow: /booking
+Allow: /login
+
+# Sitemap location
+Sitemap: https://academysimracing.bg/sitemap.xml
+
+# Crawl delay (optional, helps with server load)
+Crawl-delay: 1 

@@ -1,0 +1,69 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="techBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f0f;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f0f;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orangeNeon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff8500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b35;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="techGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff8500;stop-opacity:0.6" />
+      <stop offset="70%" style="stop-color:#ff8500;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#ff8500;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#techBg)" />
+  
+  <!-- Tech grid pattern -->
+  <g opacity="0.1" stroke="url(#orangeNeon)" stroke-width="0.5" fill="none">
+    <defs>
+      <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="url(#orangeNeon)" stroke-width="0.5"/>
+      </pattern>
+    </defs>
+    <rect width="400" height="300" fill="url(#grid)" />
+  </g>
+  
+  <!-- Circuit-like decorations -->
+  <g opacity="0.2" stroke="url(#orangeNeon)" stroke-width="2" fill="none">
+    <path d="M50 50 L150 50 L150 100 L250 100"/>
+    <path d="M350 250 L250 250 L250 200 L150 200"/>
+    <circle cx="150" cy="50" r="3" fill="url(#orangeNeon)"/>
+    <circle cx="150" cy="100" r="3" fill="url(#orangeNeon)"/>
+    <circle cx="250" cy="100" r="3" fill="url(#orangeNeon)"/>
+    <circle cx="150" cy="200" r="3" fill="url(#orangeNeon)"/>
+    <circle cx="250" cy="200" r="3" fill="url(#orangeNeon)"/>
+  </g>
+  
+  <g transform="translate(200, 150)">
+    <!-- Outer glow -->
+    <circle cx="0" cy="-20" r="45" fill="url(#techGlow)"/>
+    
+    <!-- Gear-like design -->
+    <g stroke="url(#orangeNeon)" stroke-width="3" fill="none" opacity="0.7">
+      <circle cx="0" cy="-20" r="30"/>
+      <circle cx="0" cy="-20" r="20"/>
+      <!-- Gear teeth -->
+      <polygon points="0,-50 5,-45 -5,-45" fill="url(#orangeNeon)" opacity="0.8"/>
+      <polygon points="25,-32 30,-27 20,-22" fill="url(#orangeNeon)" opacity="0.8"/>
+      <polygon points="25,-8 30,-13 20,-18" fill="url(#orangeNeon)" opacity="0.8"/>
+      <polygon points="0,10 5,5 -5,5" fill="url(#orangeNeon)" opacity="0.8"/>
+      <polygon points="-25,-8 -30,-13 -20,-18" fill="url(#orangeNeon)" opacity="0.8"/>
+      <polygon points="-25,-32 -30,-27 -20,-22" fill="url(#orangeNeon)" opacity="0.8"/>
+    </g>
+    
+    <!-- Center icon -->
+    <text x="0" y="-12" text-anchor="middle" fill="url(#orangeNeon)" font-family="Arial, sans-serif" font-size="28" style="filter: drop-shadow(0 0 6px #ff8500);">⚙️</text>
+    
+    <!-- Title -->
+    <text x="0" y="20" text-anchor="middle" fill="url(#orangeNeon)" font-family="Arial, sans-serif" font-size="16" font-weight="bold" style="filter: drop-shadow(0 0 4px #ff8500);">НАСТРОЙКИ</text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="40" text-anchor="middle" fill="#ffaa66" font-family="Arial, sans-serif" font-size="11" opacity="0.9">Racing Configuration</text>
+  </g>
+</svg> 
