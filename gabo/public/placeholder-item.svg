@@ -1,0 +1,52 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#001100;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#002200;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="neonGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff88;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00A19C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00ff88;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00A19C;stop-opacity:0.8" />
+      <stop offset="70%" style="stop-color:#00A19C;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#00A19C;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)" />
+  
+  <!-- Animated background lines -->
+  <g opacity="0.1">
+    <line x1="0" y1="75" x2="400" y2="75" stroke="url(#neonGreen)" stroke-width="1"/>
+    <line x1="0" y1="150" x2="400" y2="150" stroke="url(#neonGreen)" stroke-width="2"/>
+    <line x1="0" y1="225" x2="400" y2="225" stroke="url(#neonGreen)" stroke-width="1"/>
+    <line x1="100" y1="0" x2="100" y2="300" stroke="url(#neonGreen)" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="300" stroke="url(#neonGreen)" stroke-width="2"/>
+    <line x1="300" y1="0" x2="300" y2="300" stroke="url(#neonGreen)" stroke-width="1"/>
+  </g>
+  
+  <g transform="translate(200, 150)">
+    <!-- Outer glow circle -->
+    <circle cx="0" cy="-20" r="50" fill="url(#glow)"/>
+    <!-- Main circle with neon effect -->
+    <circle cx="0" cy="-20" r="35" fill="none" stroke="url(#neonGreen)" stroke-width="2" opacity="0.6"/>
+    <circle cx="0" cy="-20" r="28" fill="url(#neonGreen)" opacity="0.2"/>
+    
+    <!-- Icon with glow effect -->
+    <text x="0" y="-15" text-anchor="middle" fill="url(#neonGreen)" font-family="Arial, sans-serif" font-size="32" style="filter: drop-shadow(0 0 8px #00A19C);">🏎️</text>
+    
+    <!-- Main title with neon effect -->
+    <text x="0" y="20" text-anchor="middle" fill="url(#neonGreen)" font-family="Arial, sans-serif" font-size="18" font-weight="bold" style="filter: drop-shadow(0 0 4px #00A19C);">ACADEMY SHOP</text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="45" text-anchor="middle" fill="#66ffcc" font-family="Arial, sans-serif" font-size="12" opacity="0.8">Premium Racing Gear</text>
+    
+    <!-- Decorative elements -->
+    <polygon points="-60,-40 -50,-35 -60,-30" fill="url(#neonGreen)" opacity="0.4"/>
+    <polygon points="60,-40 50,-35 60,-30" fill="url(#neonGreen)" opacity="0.4"/>
+  </g>
+</svg> 

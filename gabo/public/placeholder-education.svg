@@ -1,0 +1,21 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="eduBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#001a33;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#003366;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#001a33;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7bb3f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a90e2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#eduBg)" />
+  <g transform="translate(200, 150)">
+    <circle cx="0" cy="-20" r="35" fill="url(#blueGrad)" opacity="0.3"/>
+    <text x="0" y="-15" text-anchor="middle" fill="#4a90e2" font-family="Arial, sans-serif" font-size="28">🎓</text>
+    <text x="0" y="20" text-anchor="middle" fill="#4a90e2" font-family="Arial, sans-serif" font-size="16" font-weight="bold">ОБУЧЕНИЕ</text>
+    <text x="0" y="40" text-anchor="middle" fill="#7bb3f0" font-family="Arial, sans-serif" font-size="12">Personal Training</text>
+  </g>
+</svg> 
